@@ -1,0 +1,61 @@
+/************************VARIABLES************************/
+/************************CONFIG************************/
+* {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.header {
+  padding-left: 3%;
+  padding-right: 3%; }
+
+.header-logo {
+  margin: auto 0; }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%; }
+
+.header-nav a {
+  font-family: "Raleway", sans-serif;
+  color: #070439;
+  text-align: center;
+  padding: 10%;
+  text-decoration: none;
+  margin: auto 0; }
+
+.section-input-mail {
+  padding: 5% 3%; }
+
+.input-mail-container {
+  display: flex; }
+
+.input-mail h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #070439; }
+
+.input-mail p {
+  font-family: "Open Sans", sans-serif;
+  color: #070439;
+  font-weight: 400; }
+
+.input-mail input {
+  padding: 1%;
+  width: 50%;
+  font-size: 14px; }

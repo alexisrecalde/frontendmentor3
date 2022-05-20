@@ -1,0 +1,24 @@
+.section-input-mail {
+  padding: 5% 3%;
+}
+.input-mail-container {
+  display: flex;
+}
+
+.input-mail h1 {
+  font-family: $font-secondary;
+  font-weight: 700;
+  color: $Color-Very-Dark-Blue;
+}
+
+.input-mail p {
+  font-family: $font-primary;
+  color: $Color-Very-Dark-Blue;
+  font-weight: 400;
+}
+
+.input-mail input {
+  padding: 1%;
+  width: 50%;
+  font-size: 14px;
+}

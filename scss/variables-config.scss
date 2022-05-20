@@ -1,0 +1,29 @@
+/************************VARIABLES************************/
+$Color-Very-Dark-Blue: hsl(243, 87%, 12%);
+$Color-Desaturated-Blue: hsl(238, 22%, 44%);
+$Color-Bright-Blue: hsl(224, 93%, 58%);
+$Color-Moderate-Cyan: hsl(170, 45%, 43%);
+$Color-Light-Grayish-Blue: hsl(240, 75%, 98%);
+$Color-Light-Gray: hsl(0, 0%, 75%);
+
+$font-primary: "Open Sans", sans-serif;
+$font-secondary: "Raleway", sans-serif;
+
+/************************CONFIG************************/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-secondary;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

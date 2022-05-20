@@ -1,0 +1,26 @@
+.header {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.header-logo {
+  margin: auto 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+.header-nav a {
+  font-family: $font-secondary;
+  color: $Color-Very-Dark-Blue;
+  text-align: center;
+  padding: 10%;
+  text-decoration: none;
+  margin: auto 0;
+}
